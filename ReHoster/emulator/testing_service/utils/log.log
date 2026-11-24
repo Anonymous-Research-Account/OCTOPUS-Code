@@ -1,0 +1,117 @@
+2026-08-07 15:44:11,960 - INFO - delete: /Users/tom/acvtool/acvtool_working_dir
+2026-08-07 15:44:12,143 - INFO - decompiling: com.google.android.modulemetadata, 1/1 dex files
+2026-08-07 15:44:12,603 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes
+2026-08-07 15:44:12,606 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.modulemetadata_1.pickle
+2026-08-07 15:44:12,611 - INFO - dex fields 30, acv fields 12
+2026-08-07 15:44:12,611 - INFO - instrumented
+2026-08-07 15:44:12,844 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes.dex
+2026-08-07 15:44:12,970 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2.dex
+2026-08-07 15:44:12,970 - INFO - patching apk...
+2026-08-07 15:44:13,977 - INFO - apk instrumented: /Users/tom/acvtool/acvtool_working_dir/instr_com.google.android.modulemetadata.apk
+2026-08-07 15:44:13,978 - INFO - package name: com.google.android.modulemetadata
+2026-08-07 15:44:25,625 - INFO - delete: /Users/tom/acvtool/acvtool_working_dir
+2026-08-07 15:44:26,898 - INFO - decompiling: com.google.android.googlequicksearchbox, 9/9 dex files
+2026-08-07 15:44:57,287 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes
+2026-08-07 15:45:03,948 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_1.pickle
+2026-08-07 15:45:10,107 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2
+2026-08-07 15:45:17,137 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_2.pickle
+2026-08-07 15:45:25,768 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes3
+2026-08-07 15:45:33,814 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_3.pickle
+2026-08-07 15:45:40,394 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes4
+2026-08-07 15:45:47,028 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_4.pickle
+2026-08-07 15:45:54,715 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes5
+2026-08-07 15:46:01,021 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_5.pickle
+2026-08-07 15:46:08,820 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes6
+2026-08-07 15:46:15,537 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_6.pickle
+2026-08-07 15:46:22,615 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes7
+2026-08-07 15:46:29,274 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_7.pickle
+2026-08-07 15:46:34,493 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes8
+2026-08-07 15:46:41,333 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_8.pickle
+2026-08-07 15:46:42,276 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes9
+2026-08-07 15:46:42,655 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_9.pickle
+2026-08-07 15:46:43,528 - INFO - instrumented
+2026-08-07 15:46:47,613 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes.dex
+2026-08-07 15:46:51,268 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2.dex
+2026-08-07 15:47:47,212 - INFO - delete: /Users/tom/acvtool/acvtool_working_dir
+2026-08-07 15:47:53,560 - INFO - decompiling: com.google.android.tts, 2/2 dex files
+2026-08-07 15:48:13,076 - INFO - delete: /Users/tom/acvtool/acvtool_working_dir
+2026-08-07 15:48:13,615 - INFO - decompiling: com.google.android.tts, 2/2 dex files
+2026-08-07 15:48:17,680 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes
+2026-08-07 15:48:21,740 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.tts_1.pickle
+2026-08-07 15:48:22,444 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2
+2026-08-07 15:48:22,748 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.tts_2.pickle
+2026-08-07 15:48:22,796 - INFO - instrumented
+2026-08-07 15:48:25,001 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes.dex
+2026-08-07 15:48:25,546 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2.dex
+2026-08-07 15:48:25,964 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes3.dex
+2026-08-07 15:48:25,965 - INFO - patching apk...
+2026-08-07 15:48:27,401 - INFO - apk instrumented: /Users/tom/acvtool/acvtool_working_dir/instr_com.google.android.tts.apk
+2026-08-07 15:48:27,401 - INFO - package name: com.google.android.tts
+2026-08-07 15:48:34,192 - INFO - delete: /Users/tom/acvtool/acvtool_working_dir
+2026-08-07 15:48:35,501 - INFO - decompiling: com.google.android.googlequicksearchbox, 9/9 dex files
+2026-08-07 15:49:04,187 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes
+2026-08-07 15:49:10,549 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_1.pickle
+2026-08-07 15:49:16,394 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2
+2026-08-07 15:49:22,817 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_2.pickle
+2026-08-07 15:49:30,860 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes3
+2026-08-07 15:49:39,021 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_3.pickle
+2026-08-07 15:49:45,621 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes4
+2026-08-07 15:49:52,228 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_4.pickle
+2026-08-07 15:50:00,444 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes5
+2026-08-07 15:50:06,829 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_5.pickle
+2026-08-07 15:50:14,395 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes6
+2026-08-07 15:50:21,335 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_6.pickle
+2026-08-07 15:50:27,189 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes7
+2026-08-07 15:50:34,892 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_7.pickle
+2026-08-07 15:50:39,889 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes8
+2026-08-07 15:50:44,857 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_8.pickle
+2026-08-07 15:50:45,777 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes9
+2026-08-07 15:50:46,138 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_9.pickle
+2026-08-07 15:50:47,026 - INFO - instrumented
+2026-08-07 15:50:50,784 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes.dex
+2026-08-07 15:50:54,843 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2.dex
+2026-08-07 15:51:22,679 - INFO - delete: /Users/tom/acvtool/acvtool_working_dir
+2026-08-07 15:51:31,758 - INFO - decompiling: com.google.android.apps.photos, 5/5 dex files
+2026-08-07 15:51:43,957 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes
+2026-08-07 15:51:50,145 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.apps.photos_1.pickle
+2026-08-07 15:51:56,545 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2
+2026-08-07 15:52:01,674 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.apps.photos_2.pickle
+2026-08-07 15:52:07,837 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes3
+2026-08-07 15:52:14,944 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.apps.photos_3.pickle
+2026-08-07 15:52:17,457 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes4
+2026-08-07 15:52:19,251 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.apps.photos_4.pickle
+2026-08-07 15:52:19,880 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes5
+2026-08-07 15:52:20,227 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.apps.photos_5.pickle
+2026-08-07 15:52:20,575 - INFO - instrumented
+2026-08-07 15:52:23,945 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes.dex
+2026-08-07 15:52:26,680 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2.dex
+2026-08-07 15:52:30,522 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes3.dex
+2026-08-07 15:52:32,055 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes4.dex
+2026-08-07 15:52:32,834 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes5.dex
+2026-08-07 15:52:33,707 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes6.dex
+2026-08-07 15:52:33,707 - INFO - patching apk...
+2026-08-07 15:52:37,933 - INFO - apk instrumented: /Users/tom/acvtool/acvtool_working_dir/instr_com.google.android.apps.photos.apk
+2026-08-07 15:52:37,933 - INFO - package name: com.google.android.apps.photos
+2026-08-07 15:54:13,689 - INFO - delete: /Users/tom/acvtool/acvtool_working_dir
+2026-08-07 15:54:14,961 - INFO - decompiling: com.google.android.googlequicksearchbox, 9/9 dex files
+2026-08-07 15:54:43,390 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes
+2026-08-07 15:54:50,143 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_1.pickle
+2026-08-07 15:54:56,214 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2
+2026-08-07 15:55:02,708 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_2.pickle
+2026-08-07 15:55:11,261 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes3
+2026-08-07 15:55:19,338 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_3.pickle
+2026-08-07 15:55:27,334 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes4
+2026-08-07 15:55:34,666 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_4.pickle
+2026-08-07 15:55:43,556 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes5
+2026-08-07 15:55:50,491 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_5.pickle
+2026-08-07 15:55:59,116 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes6
+2026-08-07 15:56:05,750 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_6.pickle
+2026-08-07 15:56:12,734 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes7
+2026-08-07 15:56:19,687 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_7.pickle
+2026-08-07 15:56:24,915 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes8
+2026-08-07 15:56:30,277 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_8.pickle
+2026-08-07 15:56:31,217 - INFO - saving instrumented smali: /Users/tom/acvtool/acvtool_working_dir/apktool/classes9
+2026-08-07 15:56:31,595 - INFO - pickle file saved: /Users/tom/acvtool/acvtool_working_dir/pickles/com.google.android.googlequicksearchbox_9.pickle
+2026-08-07 15:56:32,483 - INFO - instrumented
+2026-08-07 15:56:36,405 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes.dex
+2026-08-07 15:56:40,332 - INFO - built dex file: /Users/tom/acvtool/acvtool_working_dir/apktool/classes2.dex

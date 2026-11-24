@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+# This file is part of FirmwareDroid - https://github.com/FirmwareDroid/FirmwareDroid/blob/main/LICENSE.md
+# See the file 'LICENSE' for copying permission.
+
+# Allow overriding registry and image name so builds can pull/push from a
+# canonical registry (e.g. ghcr.io) instead of docker.io. These ARGs must be
+# declared before any FROM to be used in FROM expressions.
+ARG REGISTRY=ghcr.io
+ARG IMAGE_NAME=firmwaredroid/firmwaredroid
+
+# Use the published base image from the configured registry as the build
+# source. This avoids accidental pulls from docker.io/library/ when using
+# unqualified names.
+FROM ${REGISTRY}/${IMAGE_NAME}-base:latest AS firmwaredroid-backend-worker
+ENV PATH="/home/www/.cargo/bin:${PATH}"
+########################################################
+# Copy Source Files                                    #
+########################################################
+WORKDIR /var/www/
+
+########################################################
+# Install Python requirements                          #
+########################################################
+RUN --mount=type=cache,target=/tmp/.cache \
+    pip install -r /var/www/requirements/requirements_backend.txt
+
+########################################################
+# Run Webserver                                        #
+########################################################
+USER root
+CMD ["/var/www/docker_entrypoint.sh"]

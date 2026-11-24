@@ -1,0 +1,80 @@
+##########################################################################################
+# Global Configuration
+##########################################################################################
+APP_ENV={{ app_env }} # Environments: production, development, testing
+APP_DEBUG={{ app_debug }}
+
+# Docker Storage
+LOCAL_STORAGE_PATH_00={{ local_storage_path_00 }}
+LOCAL_STORAGE_PATH_01={{ local_storage_path_01 }}
+LOCAL_STORAGE_PATH_02={{ local_storage_path_02 }}
+LOCAL_STORAGE_PATH_03={{ local_storage_path_03 }}
+LOCAL_STORAGE_PATH_04={{ local_storage_path_04 }}
+LOCAL_STORAGE_PATH_05={{ local_storage_path_05 }}
+LOCAL_STORAGE_PATH_06={{ local_storage_path_06 }}
+LOCAL_STORAGE_PATH_07={{ local_storage_path_07 }}
+LOCAL_STORAGE_PATH_08={{ local_storage_path_08 }}
+LOCAL_STORAGE_PATH_09={{ local_storage_path_09 }}
+LOCAL_MONGO_DB_PATH_NODE1={{ local_mongo_db_path_node1 }}
+
+# Docker Memory
+DOCKER_CPU_LIMIT={{ docker_cpu_limit }}
+DOCKER_MEMORY_LIMIT={{ docker_memory_limit }}
+DOCKER_MEMORY_SWAP_LIMIT={{ docker_memory_swap_limit }}
+
+
+# Redis-Database
+REDIS_CONFIG_PATH={{ redis_config_path }}
+REDIS_PASSWORD={{ redis_password }}
+REDIS_PORT={{ redis_port }}
+
+# Mongo-Database
+MONGODB_DATABASE_NAME={{ mongodb_database_name }}
+MONGODB_AUTH_SRC={{ mongodb_auth_src }}
+MONGODB_PORT={{ mongodb_port }}
+MONGODB_REPLICA_SET={{ mongo_db_replicat_set }}
+MONGO_INITDB_ROOT_USERNAME={{ mongodb_initdb_root_username }}
+MONGO_INITDB_ROOT_PASSWORD={{ mongodb_initdb_root_password }}
+MONGODB_USERNAME={{ mongodb_username }}
+MONGODB_PASSWORD={{ mongodb_password }}
+MONGODB_HOSTNAME={{ mongo_db_hostname }}
+
+# Web
+MASS_IMPORT_NUMBER_OF_THREADS={{ mass_import_number_of_threads }}
+DOMAIN_NAME={{ domain_name }}
+API_TITLE={{ api_title }}
+API_VERSION={{ api_version }}
+API_DESCRIPTION={{ api_description }}
+API_PREFIX={{ api_prefix }}
+API_DOC_FOLDER={{ api_doc_folder }}
+CORS_ADDITIONAL_HOST={{ cors_additional_host }}
+DJANGO_SECRET_KEY={{ django_secret_key }}
+DJANGO_SQLITE_DATABASE_PATH={{ django_sqlite_database_path }}
+DJANGO_SQLITE_DATABASE_MOUNT_PATH={{ django_sqlite_database_mount_path }}
+DJANGO_SUPERUSER_PASSWORD={{ django_superuser_password }}
+DJANGO_SUPERUSER_USERNAME={{ django_superuser_username }}
+DJANGO_SUPERUSER_EMAIL={{ django_superuser_email }}
+
+# Neo4j-Database
+LOCAL_NEO4J_DB_PATH={{ local_neo4j_db_path }}
+NEO4J_AUTH=neo4j/{{ neo4j_password }}
+NEO4J_dbms_security_auth__enabled={{ neo4j_auth_enabled }}
+NEO4J_dbms_connector_http_listen__address={{ neo4j_connector_http_listen_address }}
+NEO4J_dbms_default__advertised__address={{ neo4j_default_advertised_address }}
+
+NEO4J_server_https_enabled=true
+NEO4J_dbms_ssl_policy_https_enabled=true
+NEO4J_dbms_ssl_policy_https_base_directory=certificates/https
+NEO4J_dbms_ssl_policy_https_private_key=neo4j.key
+NEO4J_dbms_ssl_policy_https_public_certificate=neo4j.crt
+
+NEO4J_dbms_ssl_policy_bolt_enabled=true
+NEO4J_dbms_ssl_policy_bolt_base_directory=certificates/bolt
+NEO4J_dbms_ssl_policy_bolt_private_key=neo4j.key
+NEO4J_dbms_ssl_policy_bolt_public_certificate=neo4j.cert
+NEO4J_dbms_ssl_policy_bolt_client_auth=NONE
+
+# Container constants - DO NOT CHANGE
+APP_PORT=5000
+PYTHONPATH="/home/www/source/"
+

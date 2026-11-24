@@ -1,0 +1,332 @@
+{
+ "runs_total": 249,
+ "images_total": 220,
+ "runs_by_vendor": {
+  "Google": 161,
+  "Huawei": 1,
+  "LG": 1,
+  "Motorola": 2,
+  "OPPO": 1,
+  "OnePlus": 2,
+  "Razer": 2,
+  "Unknown": 3,
+  "Xiaomi": 71,
+  "ZTE": 1,
+  "nubia": 4
+ },
+ "runs_internet_by_vendor": {
+  "Google": 71
+ },
+ "runs_app_by_vendor": {
+  "Google": 71
+ },
+ "images_twice": 29,
+ "images_twice_app_both": 0,
+ "instances": 1203,
+ "instances_runs": 71,
+ "instances_groups": 30,
+ "instances_shared_uid": 179,
+ "cat_counts": {
+  "static_only": 553,
+  "none": 410,
+  "both": 240
+ },
+ "cat_shared": {
+  "both": 57,
+  "none": 121,
+  "static_only": 1
+ },
+ "dynamic_only_groups": {},
+ "tracker_level": {
+  "Google Firebase Analytics": {
+   "instances": 615,
+   "confirmed": 83,
+   "groups": 13
+  },
+  "Google Analytics": {
+   "instances": 249,
+   "confirmed": 26,
+   "groups": 6
+  },
+  "Google AdMob": {
+   "instances": 245,
+   "confirmed": 178,
+   "groups": 5
+  },
+  "Google CrashLytics": {
+   "instances": 105,
+   "confirmed": 0,
+   "groups": 5
+  },
+  "Google Tag Manager": {
+   "instances": 76,
+   "confirmed": 41,
+   "groups": 2
+  }
+ },
+ "tracker_level_total": {
+  "pairs": 1290,
+  "confirmed": 328
+ },
+ "unexplained_pairs": 138,
+ "unexplained_by_owner_grp": {
+  "Google | com.google.android.apps.youtube.music": 37,
+  "Google | com.google.android.gm": 31,
+  "Google | com.google.android.googlequicksearchbox": 25,
+  "Yahoo | com.google.android.gm": 24,
+  "Microsoft | com.google.android.gm": 21
+ },
+ "adtrack_pkts_by_grp_owner": {
+  "com.google.android.apps.youtube.music | Google": 13246,
+  "com.google.android.gms, com.google.android.gsf | Google": 9215,
+  "com.google.android.youtube | Google": 5818,
+  "com.google.android.gm | Google": 3248,
+  "com.google.android.googlequicksearchbox | Google": 3072,
+  "com.google.android.gm | Microsoft": 1299,
+  "com.google.android.apps.messaging | Google": 1290,
+  "com.google.android.gm | Yahoo": 996,
+  "com.google.android.apps.nbu.files | Google": 720,
+  "com.google.android.apps.recorder | Google": 636,
+  "org.chromium.webview_shell | Google": 237,
+  "com.google.android.apps.maps | Google": 51,
+  "com.google.android.apps.work.oobconfig | Google": 47,
+  "com.android.webview | Google": 9
+ },
+ "adtrack_pkts_total": 39884,
+ "adtrack_domains_by_owner": {
+  "Google": 8,
+  "Microsoft": 1,
+  "Yahoo": 1
+ },
+ "gmail_nonGoogle_domains": [
+  "account.live.com",
+  "admin.microsoft.com",
+  "api.login.yahoo.com",
+  "browser.events.data.microsoft.com",
+  "dtproxy5.yahoo.nc.clients.ipqs.com",
+  "fpt.live.com",
+  "login.live.com",
+  "login.yahoo.com",
+  "logincdn.msauth.net",
+  "logincdn.msftauth.net",
+  "ms-sso.copilot.com",
+  "ms-sso.copilot.microsoft.com",
+  "res-1.cdn.office.net",
+  "s.yimg.com",
+  "udc.yahoo.com"
+ ],
+ "gmail_nonGoogle_runs": 32,
+ "gmail_runs": 50,
+ "stability_n_groups": 26,
+ "stability_median_jaccard": 0.5,
+ "stability": {
+  "com.android.cellbroadcastservice, com.android.networkstack, com.android.networkstack.permissionconfig, com.android.networkstack.tethering": {
+   "runs": 66,
+   "jaccard_mean": 0.66,
+   "core_domains": 1,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.youtube": {
+   "runs": 66,
+   "jaccard_mean": 0.55,
+   "core_domains": 1,
+   "adtrack_share_runs": 0.95
+  },
+  "com.google.android.gms, com.google.android.gsf": {
+   "runs": 58,
+   "jaccard_mean": 0.59,
+   "core_domains": 1,
+   "adtrack_share_runs": 0.98
+  },
+  "com.google.android.googlequicksearchbox": {
+   "runs": 57,
+   "jaccard_mean": 0.57,
+   "core_domains": 1,
+   "adtrack_share_runs": 0.44
+  },
+  "com.google.android.apps.messaging": {
+   "runs": 57,
+   "jaccard_mean": 0.92,
+   "core_domains": 4,
+   "adtrack_share_runs": 0.09
+  },
+  "com.google.android.apps.nbu.files": {
+   "runs": 57,
+   "jaccard_mean": 0.92,
+   "core_domains": 4,
+   "adtrack_share_runs": 0.09
+  },
+  "com.google.android.dialer": {
+   "runs": 57,
+   "jaccard_mean": 0.85,
+   "core_domains": 1,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.as.oss": {
+   "runs": 57,
+   "jaccard_mean": 0.47,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.android.mtp, com.android.providers.downloads, com.android.providers.downloads.ui, com.android.providers.media, com.android.soundpicker": {
+   "runs": 56,
+   "jaccard_mean": 0.79,
+   "core_domains": 1,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.apps.safetyhub": {
+   "runs": 56,
+   "jaccard_mean": 0.3,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.android.webview": {
+   "runs": 55,
+   "jaccard_mean": 0.34,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.02
+  },
+  "com.android.imsserviceentitlement": {
+   "runs": 53,
+   "jaccard_mean": 0.3,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.calendar": {
+   "runs": 53,
+   "jaccard_mean": 0.3,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.verizon.mips.services": {
+   "runs": 53,
+   "jaccard_mean": 0.76,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.apps.youtube.music": {
+   "runs": 50,
+   "jaccard_mean": 0.43,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.78
+  },
+  "com.google.android.gm": {
+   "runs": 50,
+   "jaccard_mean": 0.37,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.62
+  },
+  "com.google.audio.hearing.visualization.accessibility.scribe": {
+   "runs": 50,
+   "jaccard_mean": 0.85,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.apps.docs": {
+   "runs": 49,
+   "jaccard_mean": 0.3,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.apps.work.clouddpc": {
+   "runs": 45,
+   "jaccard_mean": 0.67,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.apps.maps": {
+   "runs": 41,
+   "jaccard_mean": 0.39,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.05
+  },
+  "com.google.android.apps.photos": {
+   "runs": 39,
+   "jaccard_mean": 1.0,
+   "core_domains": 4,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.apps.tips": {
+   "runs": 32,
+   "jaccard_mean": 0.53,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.carrier": {
+   "runs": 25,
+   "jaccard_mean": 0.27,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.apps.work.oobconfig": {
+   "runs": 21,
+   "jaccard_mean": 0.27,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.19
+  },
+  "com.google.android.music": {
+   "runs": 18,
+   "jaccard_mean": 0.32,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  },
+  "com.google.android.apps.turbo": {
+   "runs": 12,
+   "jaccard_mean": 0.33,
+   "core_domains": 0,
+   "adtrack_share_runs": 0.0
+  }
+ },
+ "verizon": {
+  "runs": 57,
+  "runs_verizon_domain": 46,
+  "domains": [
+   "216.239.35.0",
+   "216.239.35.12",
+   "216.239.35.4",
+   "216.239.35.8",
+   "217.147.208.1",
+   "46.22.24.205",
+   "83.150.25.25",
+   "84.254.99.155",
+   "android.googleapis.com",
+   "instantmessaging-pa.googleapis.com",
+   "telephonyspamprotect-pa.googleapis.com",
+   "verizon-services.com",
+   "www.gstatic.com",
+   "youtubei.googleapis.com"
+  ]
+ },
+ "lan": {
+  "1900 | com.google.android.apps.youtube.music": 21,
+  "1900 | com.google.android.youtube": 23,
+  "5353 | UID 0 (OS) - Unknown Package": 248,
+  "5353 | com.google.android.gms, com.google.android.gsf": 53
+ },
+ "lan_app_runs": 53,
+ "coverage_overlap": {
+  "instances": 396,
+  "packages": 8,
+  "runs": 52
+ },
+ "coverage_by_cat": {
+  "none": {
+   "count": 396.0,
+   "mean": 0.36,
+   "50%": 0.01,
+   "max": 12.64
+  }
+ },
+ "coverage_by_cat_pkgs": {
+  "none": [
+   "com.android.dynsystem",
+   "com.android.imsserviceentitlement",
+   "com.android.keychain",
+   "com.android.localtransport",
+   "com.android.mtp",
+   "com.android.providers.downloads",
+   "com.android.providers.downloads.ui",
+   "com.android.soundpicker"
+  ]
+ }
+}

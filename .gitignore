@@ -1,0 +1,21 @@
+# Data downloaded from Zenodo (see REPRODUCE.md) and local links/outputs
+/data/
+/DataAnalysis/data/
+/DataAnalysis/tables/
+/DataAnalysis/paper_results/results/
+.venv/
+venv/
+
+# OS / editor / Python leftovers
+.DS_Store
+__MACOSX/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+
+# Local test output of the emulator tooling (coverage files, captures, logs) - not part of the artifact
+/ReHoster/emulator/testing_service/util/out/
+/ReHoster/emulator/testing_service/utils/out/
+/ReHoster/emulator/testing_service/app_testing_tools/out/
+/ReHoster/emulator/testing_service/utils/log.log

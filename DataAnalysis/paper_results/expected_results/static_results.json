@@ -1,0 +1,170 @@
+{
+ "apps": 313946,
+ "images": 1056,
+ "apps_with_tracker": 28780,
+ "share_with_tracker": 9.2,
+ "vendors_ge10_images": {
+  "Google": {
+   "apps": 135645,
+   "share": 8.8,
+   "images": 462,
+   "tr_apps_per_image_median": 25.0
+  },
+  "Xiaomi": {
+   "apps": 90564,
+   "share": 11.4,
+   "images": 263,
+   "tr_apps_per_image_median": 40.0
+  },
+  "Unknown": {
+   "apps": 13776,
+   "share": 6.3,
+   "images": 65,
+   "tr_apps_per_image_median": 11.0
+  },
+  "Samsung": {
+   "apps": 19542,
+   "share": 7.3,
+   "images": 48,
+   "tr_apps_per_image_median": 30.0
+  },
+  "Motorola": {
+   "apps": 15225,
+   "share": 8.6,
+   "images": 43,
+   "tr_apps_per_image_median": 26.0
+  },
+  "OnePlus": {
+   "apps": 2643,
+   "share": 1.1,
+   "images": 18,
+   "tr_apps_per_image_median": 2.0
+  },
+  "OPPO": {
+   "apps": 2748,
+   "share": 1.3,
+   "images": 18,
+   "tr_apps_per_image_median": 2.0
+  },
+  "Realme": {
+   "apps": 3050,
+   "share": 4.3,
+   "images": 17,
+   "tr_apps_per_image_median": 3.0
+  },
+  "Nokia": {
+   "apps": 2809,
+   "share": 6.2,
+   "images": 12,
+   "tr_apps_per_image_median": 15.0
+  },
+  "ASUS": {
+   "apps": 2881,
+   "share": 17.2,
+   "images": 10,
+   "tr_apps_per_image_median": 53.5
+  }
+ },
+ "by_partition": {
+  "odm": 0.0,
+  "product": 15.0,
+  "system": 5.3,
+  "system_ext": 3.4,
+  "vendor": 0.2
+ },
+ "apps_by_partition": {
+  "odm": 107,
+  "product": 140174,
+  "system": 121866,
+  "system_ext": 38074,
+  "vendor": 13725
+ },
+ "by_version": {
+  "12": 10.7,
+  "13": 8.4,
+  "14": 7.7,
+  "15": 7.7
+ },
+ "images_by_version": {
+  "12": 422,
+  "13": 362,
+  "14": 175,
+  "15": 97
+ },
+ "tr_apps_per_image_median_all": 26.0,
+ "aosp_hosts": {
+  "instances": 941,
+  "packages": 26,
+  "apks": 424,
+  "images": 344,
+  "vendors": 16,
+  "pkg_vendor_pairs": 57,
+  "by_vendor": {
+   "Xiaomi": 799,
+   "Unknown": 36,
+   "Meizu": 25,
+   "ASUS": 22,
+   "Realme": 18,
+   "OPPO": 7,
+   "Vivo": 6,
+   "Motorola": 6,
+   "Redmi": 6,
+   "OnePlus": 5,
+   "Huawei": 4,
+   "Lenovo": 3,
+   "LG": 1,
+   "ZTE": 1,
+   "nubia": 1,
+   "Nothing": 1
+  },
+  "by_package": {
+   "com.android.thememanager": 258,
+   "com.android.providers.downloads.ui": 173,
+   "com.android.mms": 105,
+   "com.android.browser": 80,
+   "com.android.contacts": 79,
+   "com.android.camera": 64,
+   "com.android.settings": 61,
+   "com.android.systemui": 38,
+   "com.android.incallui": 17,
+   "com.android.fileexplorer": 15,
+   "com.android.messaging": 10,
+   "com.android.launcher": 8,
+   "com.android.dialer": 8,
+   "com.android.server.telecom": 7,
+   "com.android.companiondevicemanager": 4,
+   "com.android.calendar": 2,
+   "com.android.networkstack": 2,
+   "com.android.launcher3": 2,
+   "com.android.vivo.tws.vivotws": 1,
+   "com.android.emergency": 1,
+   "com.android.settings.intelligence": 1,
+   "com.android.webview": 1,
+   "com.android.bluetooth": 1,
+   "com.android.packageinstaller": 1,
+   "com.android.providers.calendar": 1,
+   "com.android.VideoPlayer": 1
+  },
+  "max_trackers": {
+   "com.android.thememanager": 10,
+   "com.android.providers.downloads.ui": 8,
+   "com.android.browser": 3,
+   "com.android.settings.intelligence": 3,
+   "com.android.VideoPlayer": 2
+  }
+ },
+ "aosp_hosts_perm_share": {
+  "WRITE_SECURE_SETTINGS": 94.4,
+  "INTERACT_ACROSS_USERS": 73.9,
+  "READ_PRIVILEGED_PHONE_STATE": 71.8,
+  "READ_PHONE_STATE": 44.7,
+  "QUERY_ALL_PACKAGES": 39.7,
+  "READ_CONTACTS": 29.4,
+  "PACKAGE_USAGE_STATS": 13.2,
+  "ACCESS_FINE_LOCATION": 41.7,
+  "READ_SMS": 12.8,
+  "RECORD_AUDIO": 32.9,
+  "CAMERA": 46.9,
+  "INSTALL_PACKAGES": 0.4
+ }
+}

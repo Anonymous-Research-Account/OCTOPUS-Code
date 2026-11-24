@@ -1,0 +1,8 @@
+# Example mitmproxy options (mounted at /home/mitmproxy/.mitmproxy/config.yml).
+# Proxy modes, ports and the flow file are set on the command line in docker-compose.yaml.
+# The CA certificate installed in the re-hosted images is in ReHoster/toolbox/ca_certificates/.
+
+# Accept clients from any address range (emulators reach the proxy via the docker network)
+block_global: false
+# Do not verify upstream certificates; we observe, we do not enforce
+ssl_insecure: true

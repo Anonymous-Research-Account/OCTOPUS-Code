@@ -1,0 +1,16 @@
+# MD5 checksums of the files on Zenodo (https://zenodo.org/records/24012262), as shown on the record page.
+# Check with:  cd data && md5sum -c --ignore-missing ../DataSources/DataArtefacts/zenodo_md5.txt   (Linux)
+#         or:  DataAnalysis/link_data.sh ../data --verify                          (Linux and macOS)
+c67d4f0f42b503eef1f8530a46e98af8  android_app.jsonl
+63c3651ca1f6d5d28b91d36ad4da62cf  android_firmware.jsonl
+190fa5a5f6c958ce7a25703dfc997fef  apk_scanner_report.jsonl
+3360059da95507da33749ba625fed3a1  ApkScannerReport_ExodusReport.jsonl
+a51a73bb7ae506412f82af129e928803  app_traffic.parquet
+f91830b2b9b9394999d5cf8264ca400b  blocked_domains.parquet
+96119d7d9baf9256f174bcedaaa53950  Blocklists.zip
+9927073b54066a8b4303a8a928184978  coverage.csv
+0760d3dabadfa6482dae223e2b021d72  exodus_trackers.zip
+0505fc6e3efdd736cc8597e667b3d108  FirmwareDroid.android_firmware_v2.json
+a08da9ed82a2b282e98c765e8f030402  FirmwareDroid.build_props_v4.json
+d68f849cfb9c3394adbf2ac9a8cf4e97  static_analysis.parquet
+617a2841afa1f161ca038fa9fd025287  trackers.json
