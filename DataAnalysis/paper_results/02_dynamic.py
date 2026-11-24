@@ -116,7 +116,7 @@ R['lan'] = {f'{int(p)} | {g}': int(n) for (p, g), n in lan.groupby(['dst_port', 
 R['lan_app_runs'] = int(lan[~lan.os].run.nunique())
 
 # ---------- coverage vs. category ----------
-_cov = os.path.join(DATA, 'coverage_summary.csv')  # Zenodo name; older copies use coverage.csv
+_cov = os.path.join(DATA, 'coverage_summary.csv')  # name used by notebook 04; on Zenodo the file is coverage.csv
 if not os.path.exists(_cov): _cov = os.path.join(DATA, 'coverage.csv')
 cov = pd.read_csv(_cov)
 cov['pct'] = cov['Cov.'].str.rstrip('%').astype(float)
